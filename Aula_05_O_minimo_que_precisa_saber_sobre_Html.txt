@@ -1,0 +1,63 @@
+
+Html é a sigla para Hypertext Markup Language, ou Linguagem de marcação para hipertexto.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Utilizamos Html para criar estruturas para páginas web: seções, paragrafos, cabeçalhos, link, divisoes e etc
+
+Toda página na internet que você acessa pode ser expecionado o codigo fonte.
+
+Ao trabalhar com html nos codidicamos estrutura (tags e atributos ) para marcar a pagina de um site, por isso o html é chamado de linguagem de marcação
+um arquivo html tem como extensão html.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+De forma geral, uma página web é dividido em 3 areas: Header, body, footer:
+
+Header : Usado para tags de informação sobre o site, aplicação de estilos css e etc
+
+Body: Conteudo do site que é apresentado ao cliente.
+
+footer: Geralmente usado para carregamento de scripts javascripts e apresentação de dados de rodapé
+
+OBS: o footer fica dentro da área de conteúdo.
+
+OBS: Para fazer teste em html podemos usar o python, o python tem um comando para criação de um servidor na maquina:
+python3 -m http.server 8000
+
+-sendo 8000 a porta desejada
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+As tags html são subdivididas em dois grupos principais:
+
+Elementos de bloco: Utilizam todo o espaço disponivel e começam um nova linha no documento.
+
+Elemento em linha: Utilizam apenas o espaço necessário e não cria um quebra de linha
+
+OBS: Tags seguem uma hierarquia, e tem algumas que não precisamos fechar.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tags mais utiladas nos elementos bloco:
+
+<html></html> -> É o elemento de maior nivel ques está em todas as páginas html.
+
+<head></head> -> Engloba todos os elementos que são mostrados na página
+
+<body></body> -> Engloba todos os elementos que são mostrados na pagina
+
+<h1></h1><h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6> -> cabeça com nivies de 1 a 6, onde 1 é o maior e 6 é menor
+
+<div></div> -> divisoes de seções de Conteudo
+
+<blockquote></blockquote> -> Bloco de citações
+
+<ol></ol> -> Lista ordenadas
+
+<ul></ul> -> lista não ordenadas
+
+<li></li> item de listas.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tags mais utiladas nos elementos linha:
+
+<strong></strong> -> Renderiza um texto em negrito
+
+<em> </em> -> Renderiza um texto em italico 
+
+<a> </a> -> cria um link para outra página ou documento
+
+<img> -> Aficiona imagem na página

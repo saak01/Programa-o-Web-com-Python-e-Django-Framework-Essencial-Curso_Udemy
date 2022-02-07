@@ -20,5 +20,26 @@ HTTP é um protocolo (protocol) que permite a obtenção de recursos, como docum
 É a base de qualquer troca de dados na Web e um protocolo cliente-servidor, o que significa que as requisições são iniciadas pelo destinatário,
  geralmente um navegador da Web.
 
+Métodos
+- O protocolo http define métodos para indicar a ação desejada a ser realizada no recuro identificado. Este métodos são chamados
+verbos hhtp quadno utilizados como aplicações web:
+
+Get - Busca recursos,cache
+
+Post: Cria um novo recurso
+
+Put/Path : Atualizar um recurso existente
+    Put - Atualiza todos os dados
+    Path - Atualiza parte dos dados
+
+Delete: remover um recurso
+----------------------------
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 """
