@@ -1,0 +1,4 @@
+Quando trabalhamos com o Django Framework devemos levar em conta a forma de trabalho do mesmo que possui um projeto que engloba o todo e aplicações plugaveis.
+
+
+Projeto Django é nada mais que um conjunto de apps django.

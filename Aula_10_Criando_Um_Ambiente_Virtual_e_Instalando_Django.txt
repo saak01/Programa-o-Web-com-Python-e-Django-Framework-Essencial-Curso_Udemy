@@ -1,0 +1,7 @@
+Está aula, é baseada em iniciar o projeto django, após a instalação da lib e 
+configuração do venv:
+
+django-admin startproject p1 .  -> Forma ideal
+
+O ponto, é utilizado para não criar diretório repetidos.
+
