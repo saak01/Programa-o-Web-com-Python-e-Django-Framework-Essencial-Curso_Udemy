@@ -1,13 +1,17 @@
+{% load static %} 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 
     <title>Index_Projeto</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
 </head>
 <body>
     <h1>Inicio do Index_Projeto</h1>
-    
+    <img src="{% static 'images/django.png' %}"/>
+
+
     <table>
         <thead>
             <tr>
@@ -25,6 +29,9 @@
         </tbody>
     </table>
     
+    <button onclick="teste();">Clique me</button>
+    <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+   
 </body>
 
 </html>
